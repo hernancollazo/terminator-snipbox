@@ -45,11 +45,11 @@ bash install.sh
 ```
 
 The script will:
-- ✓ Create the plugins directory if needed
-- ✓ Copy the plugin file
-- ✓ Backup your current Terminator config
-- ✓ Add `SnipBoxPlugin` to enabled_plugins
-- ✓ **Ask you how to initialize snippets** (examples or empty)
+- Create the plugins directory if needed
+- Copy the plugin file
+- Backup your current Terminator config
+- Add `SnipBoxPlugin` to enabled_plugins
+- **Ask you how to initialize snippets** (examples or empty)
 
 During installation, you'll be prompted to choose:
 
@@ -151,7 +151,7 @@ To verify the plugin is installed correctly:
 1. Open Terminator
 2. Right-click in any terminal window
 3. Look for **"Manage Snippets"** option at the top of the context menu
-4. If you see it, installation was successful! ✓
+4. If you see it, installation was successful!
 
 If the option doesn't appear:
 - See [Troubleshooting](#troubleshooting) section below
@@ -267,12 +267,12 @@ python3 test_snippets.py
 ```
 
 Tests check:
-- ✓ Plugin initialization and metadata
-- ✓ Snippet structure validation
-- ✓ Method availability
-- ✓ JSON configuration validity
-- ✓ Plugin state consistency
-- ✓ No empty categories or commands
+- Plugin initialization and metadata
+- Snippet structure validation
+- Method availability
+- JSON configuration validity
+- Plugin state consistency
+- No empty categories or commands
 
 All 14 tests should pass.
 
@@ -382,10 +382,10 @@ bash install.sh
    ```
 
 4. **Interactive commands won't work:**
-   - ❌ `sudo apt-get install package` (needs password)
-   - ❌ `read` (needs user input)
-   - ✅ `ls -la` (direct command)
-   - ✅ `npm install` (non-interactive)
+   - `sudo apt-get install package` (needs password)
+   - `read` (needs user input)
+   - `ls -la` (direct command)
+   - `npm install` (non-interactive)
 
 ### Plugin enabled but config shows errors
 
@@ -523,6 +523,6 @@ ls ~/.config/terminator/plugins/snippets.py  # Verify plugin
 
 ---
 
-**Made with ❤️ for Terminator users**
+**Made for Terminator users**
 
 For issues, questions, or suggestions, please open an issue on [GitHub](https://github.com/hernancollazo/terminator-snipbox/issues).
