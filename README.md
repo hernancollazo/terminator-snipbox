@@ -12,6 +12,18 @@ A plugin for the [Terminator](https://github.com/gnome-terminator/terminator) te
 - **Default Examples**: Comes with useful example snippets to get you started
 - **No Dependencies**: Only requires Terminator and Python 3.6+
 
+## Screenshots
+
+### Context Menu with Snippets
+Right-click in any terminal to access your organized snippets:
+
+![SnipBox Context Menu](screenshot1.png)
+
+### Snippets Manager Dialog
+Easily manage your snippets with a built-in dialog:
+
+![Snippets Manager](screenshot2.png)
+
 ## Requirements
 
 - **Terminator** terminal multiplexer
