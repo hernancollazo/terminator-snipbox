@@ -1,0 +1,49 @@
+{
+  "System": {
+    "list directory": "ls -la",
+    "clear screen": "clear",
+    "disk usage": "df -h",
+    "memory info": "free -h",
+    "process list": "ps aux | grep",
+    "check ip": "ip addr show",
+    "uptime": "uptime"
+  },
+  "Git": {
+    "status": "git status",
+    "log": "git log --oneline -10",
+    "add all": "git add .",
+    "commit": "git commit -m \"\"",
+    "push": "git push",
+    "pull": "git pull",
+    "diff": "git diff --stat"
+  },
+  "Docker": {
+    "list containers": "docker ps -a",
+    "list images": "docker images",
+    "build image": "docker build -t myapp .",
+    "run container": "docker run -it",
+    "stop container": "docker stop",
+    "logs": "docker logs -f"
+  },
+  "Node.js": {
+    "npm install": "npm install",
+    "npm test": "npm test",
+    "npm start": "npm start",
+    "npm build": "npm run build",
+    "check version": "node -v"
+  },
+  "Python": {
+    "pip install": "pip install",
+    "create venv": "python -m venv venv",
+    "activate venv": "source venv/bin/activate",
+    "python version": "python --version",
+    "pip freeze": "pip freeze > requirements.txt"
+  },
+  "Network": {
+    "ping google": "ping -c 4 8.8.8.8",
+    "check connection": "curl -I https://google.com",
+    "netstat": "netstat -tlnp",
+    "whois": "whois",
+    "dns lookup": "nslookup"
+  }
+}
